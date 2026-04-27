@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinPal - Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>FinPal</h1>
+  <p>Your friendly guide to smarter spending.</p>
+
+  <div class="form">
+    <input type="text" id="desc" placeholder="Description">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="category">
+      <option>Food</option>
+      <option>Transport</option>
+      <option>Entertainment</option>
+      <option>Other</option>
+    </select>
+    <button onclick="addExpense()">Add Expense</button>
+  </div>
+
+  <h2>Expenses</h2>
+  <table id="expenseTable">
+    <tr><th>Description</th><th>Amount</th><th>Category</th></tr>
+  </table>
+
+  <h2>Summary</h2>
+  <canvas id="chart"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
