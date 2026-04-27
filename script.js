@@ -39,7 +39,7 @@ function updateChart() {
 
 
         backgroundColor: colors
-
+});
       }]
     }
   });
