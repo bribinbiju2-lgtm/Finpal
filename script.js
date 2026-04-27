@@ -38,7 +38,7 @@ function updateChart() {
   return `hsl(${hue}, 70%, 50%)`;
 
 
-        backgroundColor: colors
+        backgroundColor: colors;
 });
       }]
     }
