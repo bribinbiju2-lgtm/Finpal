@@ -33,7 +33,13 @@ function updateChart() {
       labels: Object.keys(categories),
       datasets: [{
         data: Object.values(categories),
-        backgroundColor: ["#3498db", "#2ecc71", "#e74c3c", "#9b59b6"]
+        const colors = Object.keys(categories).map((_, i) => {
+  const hue = (i * 60) % 360;
+  return `hsl(${hue}, 70%, 50%)`;
+
+
+        backgroundColor: colors
+
       }]
     }
   });
