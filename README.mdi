@@ -1,0 +1,23 @@
+# FinPal – Expense Tracker
+
+## Overview
+FinPal is a simple web app that helps users track expenses, visualize spending patterns, and make smarter financial decisions. Built for Orion Build Challenge 2026.
+
+## Features
+- Add and categorize expenses
+- View expenses in a table
+- Visualize spending with a pie chart
+- Lightweight, beginner-friendly codebase
+
+## Tech Stack
+- HTML, CSS, JavaScript
+- Chart.js for visualization
+- LocalStorage (optional) for persistence
+
+## How to Run
+1. Clone this repo
+2. Open `index.html` in your browser
+3. Start adding expenses!
+
+## Mission Statement
+FinPal simplifies personal finance by offering intuitive tools to track expenses, visualize spending, and support smarter financial decisions.
